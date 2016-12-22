@@ -1,19 +1,19 @@
 bin_PROGRAMS = \
-	test_audio \
 	test_egl \
 	test_egl_configs \
-	test_glesv2 \
-	test_ui \
-	test_sf \
-	test_sensors \
-	test_input \
-	test_lights \
-	test_camera \
-	test_vibrator \
-	test_media \
-	test_recorder \
-	test_gps \
-	test_wifi
+	test_glesv2
+#	test_audio \
+#	test_ui \
+#	test_sf \
+#	test_sensors \
+#	test_input \
+#	test_lights \
+#	test_camera \
+#	test_vibrator \
+#	test_media \
+#	test_recorder \
+#	test_gps \
+#	test_wifi
 
 if HAS_ANDROID_4_2_0
 bin_PROGRAMS += test_hwcomposer
